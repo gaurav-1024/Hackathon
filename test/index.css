@@ -1,0 +1,45 @@
+
+
+.intro_section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(back.png);
+    background-size: 100% 100%;
+}
+.intro_text{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 57px;
+    width: 40%;
+    text-wrap: wrap;
+}
+#intro_para{
+    font-size: 27px;
+}
+#lets_learn_btn{
+        /* border: 2px solid black; */
+        text-decoration: none;
+        background-color: #4242d9;
+        padding: 11px;
+        color: white;
+        font-size: 25px;
+        border-radius: 10px;
+}
+
+
+.popular_course_container{
+    padding: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+.popular_course{
+    margin: 3% 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.course_image{
+    width: 21%;
+    height: 30vh;
+}

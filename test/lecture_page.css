@@ -1,0 +1,52 @@
+.main_body{
+    display: flex;
+    height: 87vh;
+}
+.lecture_list{
+    padding: 20px 10px 0px 10px;
+    text-align: center;
+    width: 20%;
+    height: 96.7%;
+    border-right: 2px solid black;
+    background-color: gray;
+    overflow-y: auto;
+}
+.lecture_btn_container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.lecture_btn{
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+.lecture_btn:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+.video_part{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(78 78 78);
+}
+.video_container{
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 80%;
+    width: 80%;
+    display: none;
+}
+.course_txt{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}

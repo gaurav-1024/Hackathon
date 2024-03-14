@@ -1,0 +1,80 @@
+.main_body{
+    display: flex;
+    height: 87vh;
+}
+.course_list{
+    padding: 20px 10px 0px 10px;
+    text-align: center;
+    width: 20%;
+    height: 97%;
+    border-right: 2px solid black;
+    background-color: gray;
+    overflow-y: auto;
+}
+.course_btn_container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.course_btn{
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+.course_btn:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+.quiz_part{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#welcome_txt{
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* question csss */
+.question_container{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 500px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    /* text-align: center; */
+    font-size: 41px;
+    display: none;
+
+}
+.question{
+    overflow-wrap:normal;
+}
+.radio_btn{
+    width: 20px;
+    height: 20px;
+}
+.options{
+    margin-top: 10px;
+
+}
+.next_btn{
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    /* margin-left: 300px; */
+    margin-top: 54px;
+}

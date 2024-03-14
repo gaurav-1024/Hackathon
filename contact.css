@@ -1,0 +1,39 @@
+.main_container{
+    height: 75vh;
+}
+.contact_txt{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    padding: 20px;
+    /* border: 2px solid black; */
+
+}
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 50vh;
+
+}
+.contact_logo i{
+    font-size: 50px;
+
+}
+.contact_head{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact_inner{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 20px;
+}

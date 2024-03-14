@@ -1,0 +1,89 @@
+.main_body{
+    display: flex;
+    height: 87vh;
+}
+.course_list{
+    padding: 20px 10px 0px 10px;
+    text-align: center;
+    width: 20%;
+    height: 97%;
+    border-right: 2px solid black;
+    background-color: gray;
+    overflow-y: auto;
+}
+.course_btn_container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.course_btn{
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+.course_btn:hover{
+    cursor: pointer;
+    background-color: wheat;
+    margin: 2px;
+}
+.quiz_part{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#welcome_txt{
+    height: 80%;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 140px;
+    font-weight: bold;
+    background: url(quiz_welcome_background.png);
+    background-repeat: no-repeat;
+}
+
+
+
+/* question csss */
+.question_container{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 309px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    /* text-align: center; */
+    font-size: 30px;
+    display: none;
+    box-shadow: 5px 5px 21px #595656, -5px -5px 21px #595656;
+    border-radius: 29px;
+    
+}
+.question{
+    overflow-wrap:normal;
+}
+.radio_btn{
+    width: 20px;
+    height: 20px;
+}
+.options{
+    margin-top: 10px;
+
+}
+.next_btn{
+    height: 43px;
+    width: 82px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.next_btn:hover{
+    cursor: pointer;
+    background-color: lightblue;
+
+}
